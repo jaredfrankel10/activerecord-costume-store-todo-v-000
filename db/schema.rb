@@ -21,7 +21,7 @@
      t.datetime "opening_time"
      t.datetime "closing_time"
    end
- 
+
    create_table "costumes", force: :cascade do |t|
      t.string "name"
      t.integer "price"
@@ -30,7 +30,7 @@
      t.datetime "created_at"
      t.datetime "updated_at"
    end
- 
+
    create_table "haunted_houses", force: :cascade do |t|
      t.string "name"
      t.string "location"
@@ -41,5 +41,5 @@
      t.datetime "closing_date"
      t.string "description"
    end
- 
+
  end
